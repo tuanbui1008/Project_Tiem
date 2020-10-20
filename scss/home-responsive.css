@@ -1,0 +1,131 @@
+@media only screen and (min-width: 768px) {
+  .wrapper .header {
+    height: 705px; }
+    .wrapper .header .background-header {
+      background-image: url(../img/bgd-hidden.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top; }
+    .wrapper .header .bgd-overlay {
+      background: linear-gradient(45deg, #0d62f2, #300df2);
+      opacity: 0.9; }
+    .wrapper .header .content-header {
+      height: 100%;
+      width: 960px;
+      margin: 0 auto; }
+      .wrapper .header .content-header .navbar {
+        top: 39px; }
+      .wrapper .header .content-header .content-text {
+        width: 838px;
+        top: 207px;
+        left: 50%;
+        transform: translateX(-50%); }
+        .wrapper .header .content-header .content-text .heading h2 {
+          text-align: center;
+          line-height: 1.2;
+          font-size: 45px; }
+        .wrapper .header .content-header .content-text .text {
+          width: 514px;
+          top: 120px;
+          left: 50%;
+          transform: translateX(-50%); }
+          .wrapper .header .content-header .content-text .text p {
+            text-align: center;
+            line-height: 1.6;
+            font-size: 18px; }
+      .wrapper .header .content-header .button {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 420px; }
+        .wrapper .header .content-header .button .btn {
+          background-color: #f20d85;
+          border-radius: 25px;
+          padding: 5px 30px;
+          transition: all 0.3s; }
+          .wrapper .header .content-header .button .btn:hover {
+            transform: scale(1.05); }
+      .wrapper .header .content-header .live-chat {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 465px; }
+    .wrapper .header .shape {
+      transform: rotate(-180deg); }
+  .wrapper .footer .shape {
+    top: -70px;
+    transform: rotate(-360deg); }
+  .wrapper .footer .bgd-overlay {
+    background: linear-gradient(45deg, #0d62f2, #300df2);
+    opacity: 0.9; }
+  .wrapper .footer .top {
+    height: 500px; }
+    .wrapper .footer .top .background-footer {
+      background-image: url(../img/bgd-hidden.jpg);
+      background-size: auto 100%;
+      background-repeat: repeat;
+      background-position: center center;
+      z-index: -2; }
+    .wrapper .footer .top .content-text {
+      width: 803px;
+      left: 50%;
+      transform: translateX(-50%); }
+      .wrapper .footer .top .content-text .heading {
+        top: 100px;
+        width: 642px;
+        left: 50%;
+        transform: translateX(-50%); }
+        .wrapper .footer .top .content-text .heading h2 {
+          text-align: center;
+          line-height: 1.2;
+          font-size: 45px; }
+      .wrapper .footer .top .content-text .button {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 220px; }
+        .wrapper .footer .top .content-text .button .btn {
+          background-color: #f20d85;
+          border-radius: 25px;
+          padding: 5px 30px;
+          transition: all 0.3s; }
+          .wrapper .footer .top .content-text .button .btn:hover {
+            transform: scale(1.05); }
+      .wrapper .footer .top .content-text .live-chat {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 268px; }
+      .wrapper .footer .top .content-text .menu-top {
+        top: 400px; }
+        .wrapper .footer .top .content-text .menu-top ul {
+          background-color: #0d62f2;
+          border-radius: 25px;
+          -webkit-box-shadow: 0px 3px 9px 0px rgba(68, 124, 245, 0.69);
+          -moz-box-shadow: 0px 3px 9px 0px rgba(68, 124, 245, 0.69);
+          box-shadow: 0px 3px 9px 0px rgba(54, 115, 247, 0.69); }
+          .wrapper .footer .top .content-text .menu-top ul li a {
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: all 0.3s; }
+            .wrapper .footer .top .content-text .menu-top ul li a:hover {
+              color: #f20d85; }
+  .wrapper .footer .main .heading {
+    text-align: center; }
+  .wrapper .footer .bottom nav ul li a {
+    display: block;
+    text-decoration: revert;
+    padding: 20px 5px;
+    font-size: 14px;
+    position: relative; }
+    .wrapper .footer .bottom nav ul li a::after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 1px;
+      height: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      background-color: white; }
+  .wrapper .footer .bottom nav ul li:last-child a::after {
+    height: 0;
+    width: 0; } }
+
+/*# sourceMappingURL=home-responsive.css.map */

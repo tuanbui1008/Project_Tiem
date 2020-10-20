@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/home.css">
+    <link rel="stylesheet" href="../scss/home-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="../js/home.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Modal-page -->
+    <!-- Button trigger modal -->
+    <!-- Modal-login -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="heading text-center font-weight-bold">
+                        <h5>Đăng nhập</h5>
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button> -->
+                    </div>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="tel">Số điện thoại</label>
+                            <input type="tel" class="form-control" name="tel" id="tel" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" name="password" id="password" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                        <button type="button" class="btn btn-primary">Đăng nhập</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <!-- header -->
+        <div class="header">
+            <!-- bgd ẩn -->
+            <div class="background-header"></div>
+            <!-- bgd-nền -->
+            <div class="bgd-overlay"></div>
+            <div class="content-header">
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <div class="background-logo"></div>
+                    </a>
+                    <div class="collapse navbar-collapse nav-header">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 w-100 justify-content-end">
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="#">Bảng giá<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Affiliate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="modal" data-target="#login">Đăng nhập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link register" href="#">Đăng ký miễn phí</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="content-text">
+                    <div class="heading">
+                        <h2 class="text-white">Tạo ra <span class="font-weight-bold">nhiều chuyển đổi hơn</span>
+                            <br> với cùng mức chi tiêu quảng cáo
+                            <br></h2>
+                    </div>
+                    <div class="text text-white">
+                        <p>Thật đơn giản để tự tay thiết kế và tối ưu Landing Page cho chiến dịch quảng cáo đa kênh của bạn!
+                            <br>
+                            <span class="font-weight-bold">*Không cần biết kỹ thuật</span>
+                        </p>
+                    </div>
+                </div>
+                <a href="#" class="button">
+                    <button class="btn text-white font-weight-bold">Bắt đầu sử dụng miễn phí</button>
+                </a>
+                <div class="live-chat">
+                    <p class="text-white"> <span><i class="fas fa-comments"></i></span> Livechat để được tư vấn</p>
+                </div>
+            </div>
+            <div class="shape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1920 176" fill="rgba(13, 98, 242, 0.9)">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                opacity: 0.1;
+                            }
+
+                            .cls-2 {
+                                opacity: 0.3;
+                            }
+                        </style>
+                    </defs>
+                    <polygon class="cls-1" points="1920 150 0 150 0 93.4 1920 0 1920 150"></polygon>
+                    <polygon class="cls-2" points="1920 163 0 163 0 98 1920 13 1920 163"></polygon>
+                    <polygon class="cls-3" points="1920 176 0 176 0 102.7 1920 26 1920 176"></polygon>
+                </svg>
+            </div>
+        </div>
+        <div class="content-main">
+            <div class="video"></div>
+        </div>
+        <div class="footer">
+            <div class="shape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1920 176" fill="rgba(13, 98, 242, 0.9)">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                opacity: 0.1;
+                            }
+
+                            .cls-2 {
+                                opacity: 0.3;
+                            }
+                        </style>
+                    </defs>
+                    <polygon class="cls-1" points="1920 150 0 150 0 93.4 1920 0 1920 150"></polygon>
+                    <polygon class="cls-2" points="1920 163 0 163 0 98 1920 13 1920 163"></polygon>
+                    <polygon class="cls-3" points="1920 176 0 176 0 102.7 1920 26 1920 176"></polygon>
+                </svg>
+            </div>
+            <!-- bgd-nền -->
+            <div class="bgd-overlay"></div>
+            <div class="top">
+                <!-- bgd ẩn -->
+                <div class="background-footer"></div>
+
+                <div class="content-text">
+                    <div class="heading">
+                        <h2 class="text-white font-weight-normal"><span class="font-weight-bold">Chỉ 5 phút thao
+                                tác</span>
+                            <br> có ngay landing Page đẹp
+                        </h2>
+                    </div>
+                    <a href="#" class="button">
+                        <button class="btn text-white font-weight-bold">Tạo Landing Page miễn phí</button>
+                    </a>
+                    <div class="live-chat">
+                        <p class="text-white"> <span><i class="fas fa-comments"></i></span> Livechat để được tư vấn</p>
+                    </div>
+                    <div class="menu-top">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="">Bảng giá</a>
+                                </li>
+                                <li>
+                                    <a href="">Kho giao diện</a>
+                                </li>
+                                <li>
+                                    <a href="">Tài liệu hướng dẫn</a>
+                                </li>
+                                <li>
+                                    <a href="">Facebook Group</a>
+                                </li>
+                                <li>
+                                    <a href="">Landing Page là gì</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="heading">
+                    <div class="logo">
+                        <div class="background-logo"></div>
+                    </div>
+                    <div class="text text-white">Công ty cổ phần công nghệ ladipage việt nam</div>
+                </div>
+                <div class="content">
+                    <div class="text-address">
+                        <p>Số chứng nhận đăng ký kinh doanh: 0123456789
+                            <br> Ngày cấp: 20/01/2020. Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội.
+                            <br>Địa chỉ: Tầng 24, Tòa nhà MD Complex, 68 Nguyễn Cơ Thạch, Hà Nội.
+                        </p>
+                        <p>Hotline: <a href="#">0123456789</a></p>
+                    </div>
+                    <div class="text">
+                        <p>Đại diện HCM: Công ty cổ phần và đầu tư IM</p>
+                        <p>18 Trần Thiện Chánh, Phường 12, Quận 10, TP. Hồ Chí Minh</p>
+                        <p>Hotline: <a href="#">0123456789</a></p>
+                    </div>
+                    <div class="copyright mt-4 mb-3">
+                        <p class="font-weight-bold">&copy;2020 All rights reserved LadiPage Vietnam</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="logo-notify"></div>
+                    <nav>
+                        <ul>
+                            <li><a href=" ">Affiliate</a></li>
+                            <li><a href=" ">Điều khoản sử dụng</a></li>
+                            <li><a href=" ">Chính sách bảo mật</a></li>
+                            <li><a href=" ">Chính sách thanh toán</a></li>
+                            <li><a href=" ">Báo cáo vi phạm chính sách</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
