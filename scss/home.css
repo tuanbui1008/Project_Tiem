@@ -31,37 +31,41 @@ p {
   .wrapper .header .content-header {
     position: relative; }
     .wrapper .header .content-header .background-logo {
-      height: 40px;
-      width: 140px;
+      height: 57px;
+      width: 142px;
       background-image: url(../img/logo.png);
       background-size: cover;
       background-repeat: no-repeat; }
     .wrapper .header .content-header .nav-header .nav-item .nav-link {
-      color: white;
+      color: black;
       padding-left: 20px;
       padding-right: 20px; }
       .wrapper .header .content-header .nav-header .nav-item .nav-link.active {
         font-weight: bold; }
       .wrapper .header .content-header .nav-header .nav-item .nav-link.register {
-        border: 1px solid white;
+        border: 1px solid black;
         border-radius: 25px;
         font-weight: bold; }
     .wrapper .header .content-header .content-text {
       position: absolute; }
       .wrapper .header .content-header .content-text .heading h2 {
+        color: black;
         margin-bottom: 0;
         width: 100%;
         display: inline-block;
         font-weight: normal; }
       .wrapper .header .content-header .content-text .text {
         position: absolute;
-        width: 100%; }
+        width: 100%;
+        color: black; }
         .wrapper .header .content-header .content-text .text p {
           margin-bottom: 0; }
     .wrapper .header .content-header .button {
-      position: absolute; }
+      position: absolute;
+      color: black; }
     .wrapper .header .content-header .live-chat {
-      position: absolute; }
+      position: absolute;
+      color: black; }
   .wrapper .header .shape {
     position: absolute;
     width: 100%;
@@ -101,11 +105,14 @@ p {
     .wrapper .footer .top .content-text {
       position: absolute; }
       .wrapper .footer .top .content-text .heading {
-        position: absolute; }
+        position: absolute;
+        color: black; }
       .wrapper .footer .top .content-text .button {
-        position: absolute; }
+        position: absolute;
+        color: black; }
       .wrapper .footer .top .content-text .live-chat {
-        position: absolute; }
+        position: absolute;
+        color: black; }
       .wrapper .footer .top .content-text .menu-top {
         position: absolute;
         width: 100%; }
@@ -115,11 +122,12 @@ p {
           list-style: none;
           justify-content: center; }
           .wrapper .footer .top .content-text .menu-top nav ul li a {
+            color: black;
             text-decoration: none;
             padding: 15px 15px;
-            color: white;
             display: block;
-            font-weight: bold; }
+            font-weight: bold;
+            color: white; }
   .wrapper .footer .main {
     display: flex;
     justify-content: center;
@@ -129,22 +137,23 @@ p {
       display: flex;
       justify-content: center; }
       .wrapper .footer .main .heading .logo .background-logo {
-        height: 60px;
-        width: 220px;
+        height: 90px;
+        width: 225px;
         background-image: url(../img/logo.png);
         background-size: cover;
         background-repeat: no-repeat; }
     .wrapper .footer .main .heading .text {
+      color: black;
       text-transform: uppercase;
       font-size: 20px;
       font-weight: bold;
       margin-top: 20px; }
     .wrapper .footer .main .content {
-      color: white;
+      color: black;
       margin-top: 20px;
       text-align: center; }
       .wrapper .footer .main .content .text-address a {
-        color: white;
+        color: black;
         text-decoration: revert; }
       .wrapper .footer .main .content .text {
         margin-top: 20px; }
@@ -153,7 +162,7 @@ p {
           text-transform: uppercase;
           font-size: 18px; }
         .wrapper .footer .main .content .text a {
-          color: white;
+          color: black;
           text-decoration: revert; }
   .wrapper .footer .bottom {
     background-color: #10356f;
@@ -163,9 +172,9 @@ p {
       background-image: url(../img/logo.png);
       background-size: cover;
       background-repeat: no-repeat;
-      width: 140px;
-      height: 40px;
-      margin-top: 10px;
+      height: 52px;
+      width: 137px;
+      margin-top: 5px;
       margin-right: 100px;
       margin-left: 150px; }
     .wrapper .footer .bottom nav ul {
@@ -173,6 +182,6 @@ p {
       flex-direction: row;
       list-style: none; }
       .wrapper .footer .bottom nav ul li a {
-        color: white; }
+        color: black; }
 
 /*# sourceMappingURL=home.css.map */

@@ -22,6 +22,10 @@
     z-index: -1;
 }
 
+@mixin style-color-text {
+    color: black;
+}
+
 h2 {
     margin-bottom: 0;
 }
@@ -52,21 +56,21 @@ p {
         .content-header {
             position: relative;
             .background-logo {
-                height: 40px;
-                width: 140px;
+                height: 57px;
+                width: 142px;
                 @include bgd-logo();
             }
             .nav-header {
                 .nav-item {
                     .nav-link {
-                        color: white;
+                        @include style-color-text();
                         padding-left: 20px;
                         padding-right: 20px;
                         &.active {
                             font-weight: bold;
                         }
                         &.register {
-                            border: 1px solid white;
+                            border: 1px solid black;
                             border-radius: 25px;
                             font-weight: bold;
                         }
@@ -77,6 +81,7 @@ p {
                 position: absolute;
                 .heading {
                     h2 {
+                        @include style-color-text();
                         margin-bottom: 0;
                         width: 100%;
                         display: inline-block;
@@ -86,6 +91,7 @@ p {
                 .text {
                     position: absolute;
                     width: 100%;
+                    @include style-color-text();
                     p {
                         margin-bottom: 0;
                     }
@@ -93,9 +99,11 @@ p {
             }
             .button {
                 position: absolute;
+                @include style-color-text();
             }
             .live-chat {
                 position: absolute;
+                @include style-color-text();
             }
         }
         .shape {
@@ -139,12 +147,15 @@ p {
                 position: absolute;
                 .heading {
                     position: absolute;
+                    @include style-color-text();
                 }
                 .button {
                     position: absolute;
+                    @include style-color-text();
                 }
                 .live-chat {
                     position: absolute;
+                    @include style-color-text();
                 }
                 .menu-top {
                     position: absolute;
@@ -157,11 +168,12 @@ p {
                             justify-content: center;
                             li {
                                 a {
+                                    @include style-color-text();
                                     text-decoration: none;
                                     padding: 15px 15px;
-                                    color: white;
                                     display: block;
                                     font-weight: bold;
+                                    color: white;
                                 }
                             }
                         }
@@ -179,12 +191,13 @@ p {
                     display: flex;
                     justify-content: center;
                     .background-logo {
-                        height: 60px;
-                        width: 220px;
+                        height: 90px;
+                        width: 225px;
                         @include bgd-logo();
                     }
                 }
                 .text {
+                    @include style-color-text();
                     text-transform: uppercase;
                     font-size: 20px;
                     font-weight: bold;
@@ -192,12 +205,12 @@ p {
                 }
             }
             .content {
-                color: white;
+                @include style-color-text();
                 margin-top: 20px;
                 text-align: center;
                 .text-address {
                     a {
-                        color: white;
+                        @include style-color-text();
                         text-decoration: revert;
                     }
                 }
@@ -209,7 +222,7 @@ p {
                         font-size: 18px;
                     }
                     a {
-                        color: white;
+                        @include style-color-text();
                         text-decoration: revert;
                     }
                 }
@@ -221,9 +234,9 @@ p {
             flex-direction: row;
             .logo-notify {
                 @include bgd-logo();
-                width: 140px;
-                height: 40px;
-                margin-top: 10px;
+                height: 52px;
+                width: 137px;
+                margin-top: 5px;
                 margin-right: 100px;
                 margin-left: 150px;
             }
@@ -234,7 +247,7 @@ p {
                     list-style: none;
                     li {
                         a {
-                            color: white;
+                            @include style-color-text();
                         }
                     }
                 }
