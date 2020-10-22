@@ -46,12 +46,32 @@
           transition: all 0.3s; }
           .wrapper .header .content-header .button .btn:hover {
             transform: scale(1.05); }
+        .wrapper .header .content-header .button.sticky {
+          position: fixed;
+          top: 9px;
+          z-index: 999; }
       .wrapper .header .content-header .live-chat {
         left: 50%;
         transform: translateX(-50%);
         top: 465px; }
     .wrapper .header .shape {
       transform: rotate(-180deg); }
+  .wrapper .content-main .video .shape {
+    display: block;
+    width: 80px;
+    height: 56px;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%); }
+  .wrapper .content-main .main .row .text button {
+    transition: all 0.3s; }
+    .wrapper .content-main .main .row .text button:hover {
+      transform: scale(1.05); }
+  .wrapper .content-main .main .heading-row {
+    margin-top: 70px;
+    text-align: center; }
+    .wrapper .content-main .main .heading-row .heading {
+      width: 100%; }
   .wrapper .footer .shape {
     top: -70px;
     transform: rotate(-360deg); }
