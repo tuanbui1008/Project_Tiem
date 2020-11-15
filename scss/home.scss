@@ -86,12 +86,14 @@ p {
             .content-text {
                 position: absolute;
                 .heading {
-                    h2 {
+                    p {
                         @include style-color-text();
+                        font-size: 35px;
                         margin-bottom: 0;
                         width: 100%;
                         display: inline-block;
-                        font-weight: normal;
+                        // font-weight: normal;
+                        font-weight: bold;
                     }
                 }
                 .text {
@@ -200,7 +202,7 @@ p {
                         margin-bottom: 20px;
                     }
                     .text {
-                        .group {
+                        .content-text {
                             margin-top: 20px;
                             ul {
                                 list-style: none;
@@ -253,6 +255,18 @@ p {
                     }
                 }
                 &.heading-row {
+                    &.btn-register {
+                        justify-content: center;
+                        button {
+                            border-radius: 25px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            // background-color: black;
+                            border: 1px solid black;
+                            color: black;
+                            background-color: white;
+                        }
+                    }
                     .group {
                         margin: 0 auto;
                         padding-top: 30px;

@@ -48,12 +48,13 @@ p {
         font-weight: bold; }
     .wrapper .header .content-header .content-text {
       position: absolute; }
-      .wrapper .header .content-header .content-text .heading h2 {
+      .wrapper .header .content-header .content-text .heading p {
         color: black;
+        font-size: 35px;
         margin-bottom: 0;
         width: 100%;
         display: inline-block;
-        font-weight: normal; }
+        font-weight: bold; }
       .wrapper .header .content-header .content-text .text {
         position: absolute;
         width: 100%;
@@ -134,15 +135,15 @@ p {
         .wrapper .content-main .main .row .content .heading {
           margin-top: 50px;
           margin-bottom: 20px; }
-        .wrapper .content-main .main .row .content .text .group {
+        .wrapper .content-main .main .row .content .text .content-text {
           margin-top: 20px; }
-          .wrapper .content-main .main .row .content .text .group ul {
+          .wrapper .content-main .main .row .content .text .content-text ul {
             list-style: none; }
-            .wrapper .content-main .main .row .content .text .group ul li svg {
+            .wrapper .content-main .main .row .content .text .content-text ul li svg {
               display: inline;
               height: 40px;
               width: 40px; }
-          .wrapper .content-main .main .row .content .text .group button {
+          .wrapper .content-main .main .row .content .text .content-text button {
             margin-top: 30px;
             border-radius: 25px;
             border: 1px solid black;
@@ -165,6 +166,15 @@ p {
               width: 82px;
               background-repeat: no-repeat;
               background-size: cover; }
+      .wrapper .content-main .main .row.heading-row.btn-register {
+        justify-content: center; }
+        .wrapper .content-main .main .row.heading-row.btn-register button {
+          border-radius: 25px;
+          padding-left: 30px;
+          padding-right: 30px;
+          border: 1px solid black;
+          color: black;
+          background-color: white; }
       .wrapper .content-main .main .row.heading-row .group {
         margin: 0 auto;
         padding-top: 30px;
