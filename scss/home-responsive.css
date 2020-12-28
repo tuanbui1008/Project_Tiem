@@ -9,7 +9,7 @@
       background-repeat: no-repeat;
       background-position: center top; }
     .wrapper .header .bgd-overlay {
-      background: linear-gradient(45deg, #c7fa10, #d2f510);
+      background-color: yellow;
       opacity: 0.9; }
     .wrapper .header .content-header {
       height: 100%;
@@ -76,7 +76,7 @@
     top: -70px;
     transform: rotate(-360deg); }
   .wrapper .footer .bgd-overlay {
-    background: linear-gradient(45deg, #c7fa10, #d2f510);
+    background-color: yellow;
     opacity: 0.9; }
   .wrapper .footer .top {
     height: 500px; }

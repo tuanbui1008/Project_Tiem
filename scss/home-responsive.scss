@@ -10,7 +10,8 @@
 
 @mixin bgd-overlay {
     // background: linear-gradient(45deg, rgba(13, 98, 242, 1), rgba(48, 13, 242, 1.0));
-    background: linear-gradient(45deg, rgb(199, 250, 16), rgb(210, 245, 16));
+    // background: linear-gradient(45deg, rgb(199, 250, 16), rgb(210, 245, 16));
+    background-color: yellow;
     opacity: 0.9;
 }
 
